@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Swipe</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <section class="nav-container section-center">
+      <nav class="navbar section-container">
+        <img src="./assets/logo-white.svg" alt="" />
+        <ul class="menu">
+          <li><a href="#">products</a></li>
+          <li><a href="#">solutions</a></li>
+          <li><a href="#">developers</a></li>
+          <li><a href="#">resources</a></li>
+          <li><a href="#">pricing</a></li>
+        </ul>
+        <button class="primary-button navbar-button">sing in</button>
+      </nav>
+    </section>
+    <!-- end of nav -->
+    <main>
+      <!-- gradient background -->
+      <canvas id="gradient-canvas"></canvas>
+      <!-- end of gradient background -->
+      <!-- hero -->
+      <section class="hero section-center">
+        <div class="section-container two-column">
+          <div class="column-left">
+            <h1>Payments infrastructure for the world</h1>
+            <p>
+              Millions of companies of all sizes—from startups to Fortune
+              500s—use Stripe’s software and APIs to accept payments, send
+              payouts, and manage their businesses online.
+            </p>
+            <div class="hero-button-container">
+              <button class="primary-button with-icon">
+                start now
+                <img src="assets/arrow-right-light.svg" alt="" />
+              </button>
+              <button class="secondary-button with-icon">
+                contact sales
+                <img src="assets/arrow-right-purple.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="column-right hero-phone-container">
+            <img class="hero-phone" src="assets/hero-phone.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- end of hero -->
+      <!-- partners -->
+      <section class="partners-section section-center">
+        <div class="section-container">
+          <div class="partners-grid">
+            <img src="./assets/amazon.png" alt="" />
+            <img src="./assets/google.png" alt="" />
+            <img src="./assets/lyft.png" alt="" />
+            <img src="./assets/shopify.png" alt="" />
+            <img src="./assets/zoom.png" alt="" />
+            <img src="./assets/slack.png" alt="" />
+            <img src="./assets/instacart.png" alt="" />
+            <img src="./assets/salesforce.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- end of partners -->
+      <!-- unified platform -->
+      <section class="unified-platform-section section-center">
+        <div class="section-container">
+          <p class="subtitle">unified platform</p>
+          <h2>All the payment products you'll ever need</h2>
+          <div class="two-column">
+            <div class="column-left">
+              <p>
+                We've got everything you'll need and more to build websites and
+                apps that handle payments, payouts, and much more. Swipe’s
+                products power payments for
+                <a href="#"> all kinds of retailers</a>,
+                <a href="#"> all kinds of businesses</a>,
+                <a href="#"> software platforms & marketplaces</a>, and
+                everything in between.
+              </p>
+            </div>
+            <div class="column-right">
+              <p>
+                We also help companies
+                <a href="#">tackle fraud</a>, <a href="#">issue invoices</a>,
+                <a href="#">send virtual and physical cards</a>,
+                <a href="#">manage financing</a>,
+                <a href="#">wrangle business spend</a>, and much more.
+              </p>
+            </div>
+          </div>
+          <button class="primary-button with-icon">
+            start now
+            <img src="assets/arrow-right-light.svg" alt="" />
+          </button>
+        </div>
+      </section>
+
+      <!-- end of unified platform -->
+      <!-- grafic photo section -->
+      <section class="graphic-section section-center">
+        <div class="section-container">
+          <div class="graphic-grid">
+            <img id="credit-card" src="./assets/credit-card.png" alt="" />
+            <img id="slack" src="./assets/slack-invoice.png" alt="" />
+            <img id="phone" src="./assets/phone.png" alt="" />
+            <img id="dashboard" src="./assets/dash.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- end of grafic photo section -->
+      <!-- integration section -->
+      <section class="integration-section section-center">
+        <div class="section-container two-column">
+          <div class="column-left">
+            <p class="subtitle">designed for engineers</p>
+            <h3>The world’s best and most intuitive APIs</h3>
+            <p>
+              We abstract the hard stuff away so your teams don't can focus on
+              building good technology, instead of spending time and money
+              reinventing the wheel.
+            </p>
+            <button class="primary-button with-icon">
+              start now
+              <img src="assets/arrow-right-dark.svg" alt="" />
+            </button>
+            <div class="card-container">
+              <div class="card">
+                <img class="icon" src="./assets/tools-icon.png" alt="" />
+                <h3>Custom Integrations</h3>
+                <p class="secondary-text">
+                  We offer front end and back end libraries in some of the most
+                  widely used technologies, old and new.
+                </p>
+                <button class="secondary-button with-icon">
+                  see libraries
+                  <img src="assets/arrow-right-blue.svg" alt="" />
+                </button>
+              </div>
+              <div class="card">
+                <img class="icon" src="./assets/cube-icon.png" alt="" />
+                <h6>Tools for all stacks</h6>
+                <p class="secondary-text">
+                  Use integrations for systems like Shopify, WooCommerce,
+                  NetSuite, and more.
+                </p>
+                <button class="secondary-button with-icon">
+                  explore partners
+                  <img src="assets/arrow-right-blue.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="column-right">
+            <img id="api-code" src="./assets/api-code.png" alt="" />
+            <img id="terminal-code" src="./assets/terminal-code.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- end of integration section -->
+      <!-- why swipe section -->
+      <section class="why-swipe-section section-center">
+        <div class="section-container">
+          <p class="subtitle">why swipe</p>
+          <h3>A tech-first approach to finance</h3>
+          <div class="card-container">
+            <div class="card">
+              <img class="icon" src="./assets/cloud-icon.png" alt="" />
+              <h3>Efficient Always</h3>
+              <p class="secondary-text">
+                We've optimized every level of the finance stack, from
+                integrations to prebuilt checkout flows - no detail has been
+                spared.
+              </p>
+            </div>
+            <div class="card">
+              <img class="icon" src="./assets/cycle-icon.png" alt="" />
+              <h3>Fast-Improving</h3>
+              <p class="secondary-text">
+                We make constant updates and improvements to help you stay on
+                the cutting edge of your industry, deploying to production
+                around 20X per day!
+              </p>
+            </div>
+            <div class="card">
+              <img class="icon" src="./assets/shield-icon.png" alt="" />
+              <h3>Tried and true</h3>
+              <p class="secondary-text">
+                Our systems operate with 100% uptime, with scalability and
+                uptime as a guarantee. Swipe is super duper certified so don't
+                worry
+              </p>
+            </div>
+            <div class="card">
+              <img class="icon" src="./assets/bars-icon.png" alt="" />
+              <h3>Crazy Optimized</h3>
+              <p class="secondary-text">
+                We use machine learning trained on billions of data points to
+                help optimize all products, from fraud to revenue recovery and
+                more.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of swhy swipe section -->
+      <!-- global section -->
+      <section class="global-section section-center">
+        <div class="section-container">
+          <div class="two-column">
+            <div class="column-left">
+              <p class="subtitle-2">Global scale</p>
+              <h2>A structure for global businesses</h2>
+              <p>
+                Swipe makes moving money simple, borderless, and programmable -
+                just like the rest of the internet. We have teams all over the
+                world and we process billions and billions of dollars yearly for
+                <a href="#"
+                  >startups, Fortune 500s, and everything in between.</a
+                >
+              </p>
+            </div>
+            <div class="column-right">
+              <img id="globe" src="./assets/global-graphic.png" alt="" />
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <h3>250M+</h3>
+              <p class="secondary-text">
+                API requests each day, peaking at 15,000 requests a second.
+              </p>
+            </div>
+            <div class="card">
+              <h3>97%</h3>
+              <p class="secondary-text">
+                of US adults have bought from businesses that use Swipe
+              </p>
+            </div>
+            <div class="card">
+              <h3>135+</h3>
+              <p class="secondary-text">
+                currencies and payment methods supported
+              </p>
+            </div>
+            <div class="card">
+              <h3>35+</h3>
+              <p class="secondary-text">
+                countries with local, acquiring, optimizing acceptance rates
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of global section -->
+      <!-- virtual events section -->
+      <section class="virtial-events-section section-center">
+        <div class="section-container two-column">
+          <div class="column-left">
+            <p class="subtitle">virtual events</p>
+            <h2>Check out Sessions now!</h2>
+            <p>
+              Swipe Sessions is our annual conference - it's now available to
+              watch on demand! Check it out and become an "internet economy"
+              genius, and see how Swipe can transform the way you do business
+              online.
+            </p>
+            <button class="primary-button with-icon">
+              start now
+              <img src="assets/arrow-right-light.svg" alt="" />
+            </button>
+          </div>
+          <div class="column-right">
+            <div class="swipe-session-card">
+              <div class="card-top">
+                <img
+                  class="card-logo"
+                  src="./assets/swipe-sessions.png"
+                  alt=""
+                />
+                <div class="avatars">
+                  <img src="./assets/avatar1.png" alt="" class="avatar-1" /><img
+                    src="./assets/avatar2.png"
+                    alt=""
+                    class="avatar-2"
+                  />
+                </div>
+              </div>
+              <div class="card-bottom">
+                <div class="card-content">
+                  <p class="subtitle">keynote</p>
+                  <p class="secondary-text">
+                    Everything you need to know about the internet economy
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of virtual events section -->
+      <!-- getting started section -->
+      <section class="getting-started-section section-center">
+        <div class="section-container two-column">
+          <div class="column-left">
+            <h2>What are you waiting for?</h2>
+            <p>
+              Explore <a href="#">Swipe</a> now, or create an account and start
+              accepting payments today! If you need a custom package for your
+              business, let's chat today.
+            </p>
+            <button class="primary-button with-icon">
+              start now <img src="./assets/arrow-right-light.svg" alt="" />
+            </button>
+          </div>
+          <div class="column-right">
+            <div class="card">
+              <img src="./assets/shield-icon.png" alt="" class="icon" />
+              <h3>Always know what you pay</h3>
+              <p class="secondary-text">
+                Integrated per-transaction pricing with no hidden fees.
+              </p>
+              <button class="secondary-button with-icon">
+                Pricing details
+                <img src="./assets/arrow-right-purple.svg" alt="" />
+              </button>
+            </div>
+            <div class="card">
+              <img
+                src="./assets/bars-icon.p
+              
+              
+              
+              ng"
+                alt=""
+                class="icon"
+              />
+              <h3>Start your integration</h3>
+              <p class="secondary-text">
+                Get up and running with Stripe in as little as 10 minutes.
+              </p>
+              <button class="secondary-button with-icon">
+                API reference
+                <img src="./assets/arrow-right-purple.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer section -->
+      <footer class="footer section-center">
+        <footer class="section-container">
+          <div class="col">
+            <img src="./assets/logo-dark.svg" alt="" id="footer-logo" />
+            <div class="icon-link">
+              <img src="./assets/location-icon.png" alt="" />
+              <a href="#">United States</a>
+            </div>
+            <div class="icon-link">
+              <img src="./assets/comment-icon.png" alt="" />
+              <a href="#">English (United States)</a>
+            </div>
+          </div>
+          <div class="col">
+            <h6>Products</h6>
+            <ul>
+              <li><a href="#">Payments</a></li>
+              <li><a href="#">Billing</a></li>
+              <li><a href="#">Connect</a></li>
+              <li><a href="#">Payouts</a></li>
+              <li><a href="#">Radar</a></li>
+              <li><a href="#">Sigma</a></li>
+              <li><a href="#">Atlas</a></li>
+              <li><a href="#">Issuing</a></li>
+              <li><a href="#">Terminal</a></li>
+              <li><a href="#">Climate</a></li>
+              <li><a href="#">Treasury</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h6>Developers</h6>
+            <ul>
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">API reference</a></li>
+              <li><a href="#">API status</a></li>
+              <li><a href="#">Open source</a></li>
+              <li><a href="#">Flex</a></li>
+              <li><a href="#">Plugins</a></li>
+              <li><a href="#">Libraries</a></li>
+              <li><a href="#">Code samples</a></li>
+              <li><a href="#">Developer beta</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h6>Company</h6>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Customers</a></li>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#">Enterprise</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Newsroom</a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">Trust</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </footer>
+      </footer>
+      <!-- end of footer section -->
+    </main>
+    <script src="./gradient.js"></script>
+  </body>
+</html>
